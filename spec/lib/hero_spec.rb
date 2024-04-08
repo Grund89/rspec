@@ -1,4 +1,4 @@
-require 'apec_helper'
+require 'spec_helper'
 require 'hero'
 
 describe Hero do
