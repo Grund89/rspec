@@ -8,7 +8,8 @@ describe Hero do
   end
 
   it 'has more than 1000 HP points' do
-    pending
+    hero = Hero.new
+    expect(hero.hp).to be > 1000
   end
 
 end
